@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
+    <title>Конструктор emoji</title>
+    <link rel="stylesheet" href="./emoji.css" />
+    <script src="https://kit.fontawesome.com/35c398e458.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>        
+        <div id="main-container">
+            <a id="back-to-homepage" href="../index.html">На главную</a>
+            <h1 id="main-heading">Конструктор emoji</h1>
+            <div id="card-wrapper">
+                <div id="select-skin-card" class="card left-card">
+                    <h3>Выберите цвет</h3>
+                    <div>
+                        <img class="skin" id="yellow-skin" src="./assets/skin/yellow.png" />
+                        <img class="skin" id="green-skin" src="./assets/skin/green.png" />
+                        <img class="skin" id="red-skin" src="./assets/skin/red.png" />
+                    </div>
+                    <i class="fas fa-chevron-right next-step show-eyes-card"></i>
+                </div>
+                <div id="select-eyes-card" class="card left-card">
+                    <h3>Выберите тип глаз</h3>
+                    <div>
+                        <img class="eye" id="eye-normal" src="./assets/eyes/normal.png" />
+                        <img class="eye" id="eye-closed" src="./assets/eyes/closed.png" />
+                        <img class="eye" id="eye-long" src="./assets/eyes/long.png" />
+                    </div>
+                    <div>
+                        <img class="eye" id="eye-laughing" src="./assets/eyes/laughing.png" />
+                        <img class="eye" id="eye-rolling" src="./assets/eyes/rolling.png" />
+                        <img class="eye" id="eye-winking" src="./assets/eyes/winking.png" />
+                    </div>
+                    <i id="show-skin-card" class="fas fa-chevron-left previous-step"></i>
+                    <i id="show-mouth-card" class="fas fa-chevron-right next-step"></i>
+                </div>
+                <div id="select-mouth-card" class="card left-card">
+                    <h3>Выберите тип рта</h3>
+                    <div>
+                        <img class="mouth" id="mouth-open" src="./assets/mouth/open.png" />
+                        <img class="mouth" id="mouth-smiling" src="./assets/mouth/smiling.png" />
+                        <img class="mouth" id="mouth-straight" src="./assets/mouth/straight.png" />
+                    </div>
+                    <div>
+                        <img class="mouth" id="mouth-sad" src="./assets/mouth/sad.png" />
+                        <img class="mouth" id="mouth-teeth" src="./assets/mouth/teeth.png" />
+                    </div>
+                    <i class="fas fa-chevron-left previous-step show-eyes-card"></i>
+                </div>
+
+                <div class="card right-card">
+                    <div id="emoji">
+                        <img id="skin" />
+                        <img id="eyes" />
+                        <img id="mouth" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
