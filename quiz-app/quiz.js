@@ -24,9 +24,9 @@ function renderFromServer(loadScript) {
     .then(res => {
         let arr = [...res];
         // console.log(arr);
-        const quizItem = document.body.querySelector('.quiz-item');
+        const quizItem = document.body.querySelectorAll('.quiz-item');
         // const optionWrapper = quizItem.querySelectorAll('.option-wrapper');
-        console.log(quizItem.children);
+        // console.log(quizItem.children);
 
 
         
