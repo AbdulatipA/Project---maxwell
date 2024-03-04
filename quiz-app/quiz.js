@@ -47,15 +47,15 @@ function renderFromServer(loadScript) {
         // f()
 
 
-        quiz.addEventListener('click', (e) => {
-            const target = e.target;
-            if(target.classList.contains('option-wrapper')) {
-                // console.log(quizItem.children)
-                quizItem.forEach((item, i) => {
-                    console.log(item.children)
-                })
-            }
-        });
+        // quiz.addEventListener('click', (e) => {
+        //     const target = e.target;
+        //     if(target.classList.contains('option-wrapper')) {
+        //         // console.log(quizItem.children)
+        //         quizItem.forEach((item, i) => {
+        //             console.log(item.children)
+        //         })
+        //     }
+        // });
     })
 };
 
