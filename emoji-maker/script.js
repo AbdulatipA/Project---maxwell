@@ -1,15 +1,12 @@
-const leftСard = document.querySelectorAll('.left-card'),
-      nextBtn = document.querySelector('.next-step'),
-      prevtBtn = document.querySelector('.previous-step');
+const leftСard = document.querySelectorAll('.left-card');
 
+const leftSkin = document.querySelectorAll('.skin');
+const leftEyes = document.querySelectorAll('.eye');
+const leftMouth = document.querySelectorAll('.mouth');
 
-const leftSkin = document.querySelectorAll('.skin'),
-      leftEyes = document.querySelectorAll('.eye');
-      leftMouth = document.querySelectorAll('.mouth'),
-
-      rightSkin = document.querySelector('#skin'),
-      rightEyes = document.querySelector('#eyes'),
-      rightMouth = document.querySelector('#mouth');
+const rightSkin = document.querySelector('#skin');
+const rightEyes = document.querySelector('#eyes');
+const rightMouth = document.querySelector('#mouth');
 
 
 
@@ -50,4 +47,3 @@ function showRightSmile (leftSmile, face, rightSmile) {
 showRightSmile(leftSkin, 'skin', rightSkin);
 showRightSmile(leftEyes, 'eye', rightEyes);
 showRightSmile(leftMouth, 'mouth', rightMouth);
-
